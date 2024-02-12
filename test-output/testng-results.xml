@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="14" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-08T12:19:46 IST" name="Suite" finished-at="2024-02-08T12:21:32 IST" duration-ms="106426">
+    <groups>
+      <group name="regression">
+        <method signature="TC02_UpcomingBikes.ManufacturerDrpDown()[pri:2, instance:TestCase.TC02_UpcomingBikes@59505b48]" name="ManufacturerDrpDown" class="TestCase.TC02_UpcomingBikes"/>
+        <method signature="TC02_UpcomingBikes.bikeDetails()[pri:3, instance:TestCase.TC02_UpcomingBikes@59505b48]" name="bikeDetails" class="TestCase.TC02_UpcomingBikes"/>
+        <method signature="TC03_UsedCars.hoverOnUsedCars()[pri:4, instance:TestCase.TC03_UsedCars@4efac082]" name="hoverOnUsedCars" class="TestCase.TC03_UsedCars"/>
+        <method signature="TC03_UsedCars.location()[pri:5, instance:TestCase.TC03_UsedCars@4efac082]" name="location" class="TestCase.TC03_UsedCars"/>
+        <method signature="TC03_UsedCars.brandAvailable()[pri:6, instance:TestCase.TC03_UsedCars@4efac082]" name="brandAvailable" class="TestCase.TC03_UsedCars"/>
+        <method signature="TC04_LoginPage.errorMessage()[pri:9, instance:TestCase.TC04_LoginPage@13fd2ccd]" name="errorMessage" class="TestCase.TC04_LoginPage"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC04_LoginPage.LoginPageInHome()[pri:8, instance:TestCase.TC04_LoginPage@13fd2ccd]" name="LoginPageInHome" class="TestCase.TC04_LoginPage"/>
+        <method signature="TC01_HomePage.homepage()[pri:1, instance:TestCase.TC01_HomePage@1b11171f]" name="homepage" class="TestCase.TC01_HomePage"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-02-08T12:19:46 IST" name="Test" finished-at="2024-02-08T12:21:32 IST" duration-ms="106426">
+      <class name="TestCase.TC03_UsedCars">
+        <test-method signature="hoverOnUsedCars()[pri:4, instance:TestCase.TC03_UsedCars@4efac082]" started-at="2024-02-08T12:21:08 IST" name="hoverOnUsedCars" finished-at="2024-02-08T12:21:11 IST" duration-ms="2607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverOnUsedCars -->
+        <test-method signature="location()[pri:5, instance:TestCase.TC03_UsedCars@4efac082]" started-at="2024-02-08T12:21:11 IST" name="location" finished-at="2024-02-08T12:21:17 IST" depends-on-methods="TestCase.TC03_UsedCars.hoverOnUsedCars" duration-ms="5462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- location -->
+        <test-method signature="brandAvailable()[pri:6, instance:TestCase.TC03_UsedCars@4efac082]" started-at="2024-02-08T12:21:17 IST" name="brandAvailable" finished-at="2024-02-08T12:21:23 IST" depends-on-methods="TestCase.TC03_UsedCars.hoverOnUsedCars, TestCase.TC03_UsedCars.location" duration-ms="5814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brandAvailable -->
+      </class> <!-- TestCase.TC03_UsedCars -->
+      <class name="TestCase.TC02_UpcomingBikes">
+        <test-method signature="ManufacturerDrpDown()[pri:2, instance:TestCase.TC02_UpcomingBikes@59505b48]" started-at="2024-02-08T12:20:30 IST" name="ManufacturerDrpDown" finished-at="2024-02-08T12:20:34 IST" duration-ms="3885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManufacturerDrpDown -->
+        <test-method signature="bikeDetails()[pri:3, instance:TestCase.TC02_UpcomingBikes@59505b48]" started-at="2024-02-08T12:20:34 IST" name="bikeDetails" finished-at="2024-02-08T12:21:08 IST" depends-on-methods="TestCase.TC02_UpcomingBikes.ManufacturerDrpDown" duration-ms="33553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bikeDetails -->
+      </class> <!-- TestCase.TC02_UpcomingBikes -->
+      <class name="TestCase.TC04_LoginPage">
+        <test-method signature="LoginPageInHome()[pri:8, instance:TestCase.TC04_LoginPage@13fd2ccd]" started-at="2024-02-08T12:21:24 IST" name="LoginPageInHome" finished-at="2024-02-08T12:21:28 IST" duration-ms="4163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageInHome -->
+        <test-method signature="errorMessage()[pri:9, instance:TestCase.TC04_LoginPage@13fd2ccd]" started-at="2024-02-08T12:21:29 IST" name="errorMessage" finished-at="2024-02-08T12:21:31 IST" depends-on-methods="TestCase.TC04_LoginPage.LoginPageInHome" duration-ms="2178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessage -->
+      </class> <!-- TestCase.TC04_LoginPage -->
+      <class name="TestCase.TC01_HomePage">
+        <test-method is-config="true" signature="setUpEnvi(java.lang.String)[pri:0, instance:TestCase.TC01_HomePage@1b11171f]" started-at="2024-02-08T12:19:47 IST" name="setUpEnvi" finished-at="2024-02-08T12:20:12 IST" duration-ms="25647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpEnvi -->
+        <test-method signature="homepage()[pri:1, instance:TestCase.TC01_HomePage@1b11171f]" started-at="2024-02-08T12:20:12 IST" name="homepage" finished-at="2024-02-08T12:20:30 IST" duration-ms="17195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.TC01_HomePage@1b11171f]" started-at="2024-02-08T12:21:31 IST" name="tearDown" finished-at="2024-02-08T12:21:32 IST" duration-ms="1407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.TC01_HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
