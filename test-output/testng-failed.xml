@@ -13,23 +13,21 @@
       </run>
     </groups>
     <classes>
-      <class name="TestCase.TC03_UsedCars">
+      <class name="TestCase.TC02_UpcomingBikes">
         <methods>
-          <include name="location"/>
-          <include name="brandAvailable"/>
+          <include name="ManufacturerDrpDown"/>
+          <include name="bikeDetails"/>
           <include name="setUpEnvi"/>
-          <include name="hoverOnUsedCars"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- TestCase.TC03_UsedCars -->
-      <class name="TestCase.TC04_LoginPage">
+      </class> <!-- TestCase.TC02_UpcomingBikes -->
+      <class name="TestCase.TC01_HomePage">
         <methods>
-          <include name="errorMessage"/>
+          <include name="homepage"/>
           <include name="setUpEnvi"/>
-          <include name="LoginPageInHome"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- TestCase.TC04_LoginPage -->
+      </class> <!-- TestCase.TC01_HomePage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

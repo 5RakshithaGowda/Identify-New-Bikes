@@ -13,14 +13,15 @@
       </run>
     </groups>
     <classes>
-      <class name="TestCase.TC04_LoginPage">
+      <class name="TestCase.TC03_UsedCars">
         <methods>
-          <include name="errorMessage"/>
+          <include name="location"/>
           <include name="setUpEnvi"/>
-          <include name="LoginPageInHome"/>
+          <include name="brandAvailable"/>
+          <include name="hoverOnUsedCars"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- TestCase.TC04_LoginPage -->
+      </class> <!-- TestCase.TC03_UsedCars -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Identifying New Bikes</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 12, 2024 09:21:20 AM</span></a>
+<a href="#"><span class="badge badge-primary">Feb 12, 2024 12:50:06 PM</span></a>
 </li>
 </ul>
 </div>
@@ -71,8 +71,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
-<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -86,25 +85,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag="sanity"
           device="">
           <div class="test-detail">
             <p class="name">TestCase.TC01_HomePage</p>
             <p class="text-sm">
-              <span>9:21:57 AM</span> / <span>00:00:00:284</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>12:51:38 PM</span> / <span>00:00:00:376</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">TestCase.TC01_HomePage</h5>
-<span class='badge badge-success'>02.12.2024 9:21:57 AM</span>
-<span class='badge badge-danger'>02.12.2024 9:21:57 AM</span>
-<span class='badge badge-default'>00:00:00:284</span>
+<h5 class="test-status text-pass">TestCase.TC01_HomePage</h5>
+<span class='badge badge-success'>02.12.2024 12:51:38 PM</span>
+<span class='badge badge-danger'>02.12.2024 12:51:38 PM</span>
+<span class='badge badge-default'>00:00:00:376</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -113,7 +112,7 @@
 <div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\homepage_202402120957.png' src="C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\homepage_202402120957.png">
+<img data-featherlight='C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\homepage_202402121238.png' src="C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\homepage_202402121238.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -121,25 +120,10 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>9:21:57 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:51:38 PM</td>
         <td>
-          homepage got failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:21:57 AM</td>
-        <td>
-          no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='New Bikes']"}
-  (Session info: chrome=120.0.6099.130)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ec7ab0892393e95c8fa5659e31e74b97, findElement {using=xpath, value=//a[normalize-space()='New Bikes']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61956}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61956/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ec7ab0892393e95c8fa5659e31e74b97
+          homepage got successfully executed
         </td>
       </tr>
   </tbody>
@@ -147,25 +131,25 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="2"
+        <li class="test-item"  status="pass" test-id="2"
           author=""
           tag="regression"
           device="">
           <div class="test-detail">
             <p class="name">TestCase.TC02_UpcomingBikes</p>
             <p class="text-sm">
-              <span>9:22:17 AM</span> / <span>00:00:00:178</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>12:51:44 PM</span> / <span>00:00:00:359</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">TestCase.TC02_UpcomingBikes</h5>
-<span class='badge badge-success'>02.12.2024 9:22:17 AM</span>
-<span class='badge badge-danger'>02.12.2024 9:22:18 AM</span>
-<span class='badge badge-default'>00:00:00:178</span>
+<h5 class="test-status text-pass">TestCase.TC02_UpcomingBikes</h5>
+<span class='badge badge-success'>02.12.2024 12:51:44 PM</span>
+<span class='badge badge-danger'>02.12.2024 12:51:45 PM</span>
+<span class='badge badge-default'>00:00:00:359</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -174,7 +158,7 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 <div class="m-t-15"><span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\ManufacturerDrpDown_202402120917.png' src="C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\ManufacturerDrpDown_202402120917.png">
+<img data-featherlight='C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\ManufacturerDrpDown_202402121244.png' src="C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\ManufacturerDrpDown_202402121244.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -182,25 +166,10 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>9:22:17 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:51:44 PM</td>
         <td>
-          ManufacturerDrpDown got failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:22:17 AM</td>
-        <td>
-          no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='makeId']"}
-  (Session info: chrome=120.0.6099.130)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ec7ab0892393e95c8fa5659e31e74b97, findElement {using=xpath, value=//select[@id='makeId']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61956}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61956/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ec7ab0892393e95c8fa5659e31e74b97
+          ManufacturerDrpDown got successfully executed
         </td>
       </tr>
   </tbody>
@@ -208,25 +177,25 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </div>
           </div>
         </li>
-        <li class="test-item"  status="skip" test-id="3"
+        <li class="test-item"  status="pass" test-id="3"
           author=""
           tag="regression"
           device="">
           <div class="test-detail">
             <p class="name">TestCase.TC02_UpcomingBikes</p>
             <p class="text-sm">
-              <span>9:22:18 AM</span> / <span>00:00:00:001</span>
-              <span class="badge skip-bg log float-right">Skip</span>
+              <span>12:52:21 PM</span> / <span>00:00:00:410</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-skip">TestCase.TC02_UpcomingBikes</h5>
-<span class='badge badge-success'>02.12.2024 9:22:18 AM</span>
-<span class='badge badge-danger'>02.12.2024 9:22:18 AM</span>
-<span class='badge badge-default'>00:00:00:001</span>
+<h5 class="test-status text-pass">TestCase.TC02_UpcomingBikes</h5>
+<span class='badge badge-success'>02.12.2024 12:52:21 PM</span>
+<span class='badge badge-danger'>02.12.2024 12:52:21 PM</span>
+<span class='badge badge-default'>00:00:00:410</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -234,23 +203,19 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </div>
 <div class="m-t-15"><span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\bikeDetails_202402121221.png' src="C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\bikeDetails_202402121221.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>9:22:18 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:52:21 PM</td>
         <td>
-          bikeDetails got skipped
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:22:18 AM</td>
-        <td>
-          Method TestCase.TC02_UpcomingBikes.bikeDetails() on instance TestCase.TC02_UpcomingBikes@55183b20 depends on not successfully finished methods 
-[TestCase.TC02_UpcomingBikes.ManufacturerDrpDown() on instance TestCase.TC02_UpcomingBikes@55183b20]
+          bikeDetails got successfully executed
         </td>
       </tr>
   </tbody>
@@ -258,25 +223,25 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="4"
+        <li class="test-item"  status="pass" test-id="4"
           author=""
           tag="regression"
           device="">
           <div class="test-detail">
             <p class="name">TestCase.TC03_UsedCars</p>
             <p class="text-sm">
-              <span>9:22:40 AM</span> / <span>00:00:00:180</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>12:52:24 PM</span> / <span>00:00:00:366</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">TestCase.TC03_UsedCars</h5>
-<span class='badge badge-success'>02.12.2024 9:22:40 AM</span>
-<span class='badge badge-danger'>02.12.2024 9:22:40 AM</span>
-<span class='badge badge-default'>00:00:00:180</span>
+<h5 class="test-status text-pass">TestCase.TC03_UsedCars</h5>
+<span class='badge badge-success'>02.12.2024 12:52:24 PM</span>
+<span class='badge badge-danger'>02.12.2024 12:52:24 PM</span>
+<span class='badge badge-default'>00:00:00:366</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -285,7 +250,7 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 <div class="m-t-15"><span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\hoverOnUsedCars_202402120940.png' src="C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\hoverOnUsedCars_202402120940.png">
+<img data-featherlight='C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\hoverOnUsedCars_202402121224.png' src="C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\hoverOnUsedCars_202402121224.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -293,25 +258,10 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>9:22:40 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:52:24 PM</td>
         <td>
-          hoverOnUsedCars got failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:22:40 AM</td>
-        <td>
-          no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/used-car']"}
-  (Session info: chrome=120.0.6099.130)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ec7ab0892393e95c8fa5659e31e74b97, findElement {using=xpath, value=//a[@href='/used-car']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61956}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61956/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ec7ab0892393e95c8fa5659e31e74b97
+          hoverOnUsedCars got successfully executed
         </td>
       </tr>
   </tbody>
@@ -319,25 +269,25 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </div>
           </div>
         </li>
-        <li class="test-item"  status="skip" test-id="5"
+        <li class="test-item"  status="pass" test-id="5"
           author=""
           tag="regression"
           device="">
           <div class="test-detail">
             <p class="name">TestCase.TC03_UsedCars</p>
             <p class="text-sm">
-              <span>9:22:40 AM</span> / <span>00:00:00:000</span>
-              <span class="badge skip-bg log float-right">Skip</span>
+              <span>12:53:06 PM</span> / <span>00:00:00:342</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-skip">TestCase.TC03_UsedCars</h5>
-<span class='badge badge-success'>02.12.2024 9:22:40 AM</span>
-<span class='badge badge-danger'>02.12.2024 9:22:40 AM</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">TestCase.TC03_UsedCars</h5>
+<span class='badge badge-success'>02.12.2024 12:53:06 PM</span>
+<span class='badge badge-danger'>02.12.2024 12:53:07 PM</span>
+<span class='badge badge-default'>00:00:00:342</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -345,23 +295,19 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </div>
 <div class="m-t-15"><span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\location_202402121206.png' src="C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\location_202402121206.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>9:22:40 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:53:06 PM</td>
         <td>
-          location got skipped
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:22:40 AM</td>
-        <td>
-          Method TestCase.TC03_UsedCars.location() on instance TestCase.TC03_UsedCars@4f83df68 depends on not successfully finished methods 
-[TestCase.TC03_UsedCars.hoverOnUsedCars() on instance TestCase.TC03_UsedCars@4f83df68]
+          location got successfully executed
         </td>
       </tr>
   </tbody>
@@ -369,25 +315,25 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </div>
           </div>
         </li>
-        <li class="test-item"  status="skip" test-id="6"
+        <li class="test-item"  status="pass" test-id="6"
           author=""
           tag="regression"
           device="">
           <div class="test-detail">
             <p class="name">TestCase.TC03_UsedCars</p>
             <p class="text-sm">
-              <span>9:22:40 AM</span> / <span>00:00:00:000</span>
-              <span class="badge skip-bg log float-right">Skip</span>
+              <span>12:53:14 PM</span> / <span>00:00:01:650</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-skip">TestCase.TC03_UsedCars</h5>
-<span class='badge badge-success'>02.12.2024 9:22:40 AM</span>
-<span class='badge badge-danger'>02.12.2024 9:22:40 AM</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">TestCase.TC03_UsedCars</h5>
+<span class='badge badge-success'>02.12.2024 12:53:14 PM</span>
+<span class='badge badge-danger'>02.12.2024 12:53:16 PM</span>
+<span class='badge badge-default'>00:00:01:650</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -395,24 +341,19 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </div>
 <div class="m-t-15"><span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\brandAvailable_202402121214.png' src="C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\brandAvailable_202402121214.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>9:22:40 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:53:14 PM</td>
         <td>
-          brandAvailable got skipped
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:22:40 AM</td>
-        <td>
-          Method TestCase.TC03_UsedCars.brandAvailable() on instance TestCase.TC03_UsedCars@4f83df68 depends on not successfully finished methods 
-[TestCase.TC03_UsedCars.hoverOnUsedCars() on instance TestCase.TC03_UsedCars@4f83df68
-TestCase.TC03_UsedCars.location() on instance TestCase.TC03_UsedCars@4f83df68]
+          brandAvailable got successfully executed
         </td>
       </tr>
   </tbody>
@@ -420,25 +361,25 @@ TestCase.TC03_UsedCars.location() on instance TestCase.TC03_UsedCars@4f83df68]
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="7"
+        <li class="test-item"  status="pass" test-id="7"
           author=""
           tag="sanity"
           device="">
           <div class="test-detail">
             <p class="name">TestCase.TC04_LoginPage</p>
             <p class="text-sm">
-              <span>9:23:00 AM</span> / <span>00:00:00:173</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>12:53:23 PM</span> / <span>00:00:00:242</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">TestCase.TC04_LoginPage</h5>
-<span class='badge badge-success'>02.12.2024 9:23:00 AM</span>
-<span class='badge badge-danger'>02.12.2024 9:23:00 AM</span>
-<span class='badge badge-default'>00:00:00:173</span>
+<h5 class="test-status text-pass">TestCase.TC04_LoginPage</h5>
+<span class='badge badge-success'>02.12.2024 12:53:23 PM</span>
+<span class='badge badge-danger'>02.12.2024 12:53:23 PM</span>
+<span class='badge badge-default'>00:00:00:242</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -447,7 +388,7 @@ TestCase.TC03_UsedCars.location() on instance TestCase.TC03_UsedCars@4f83df68]
 <div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\LoginPageInHome_202402120900.png' src="C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\LoginPageInHome_202402120900.png">
+<img data-featherlight='C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\LoginPageInHome_202402121223.png' src="C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\LoginPageInHome_202402121223.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -455,25 +396,10 @@ TestCase.TC03_UsedCars.location() on instance TestCase.TC03_UsedCars@4f83df68]
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>9:23:00 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:53:23 PM</td>
         <td>
-          LoginPageInHome got failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:23:00 AM</td>
-        <td>
-          no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='forum_login_wrap_lg']"}
-  (Session info: chrome=120.0.6099.130)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ec7ab0892393e95c8fa5659e31e74b97, findElement {using=xpath, value=//div[@id='forum_login_wrap_lg']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61956}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61956/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ec7ab0892393e95c8fa5659e31e74b97
+          LoginPageInHome got successfully executed
         </td>
       </tr>
   </tbody>
@@ -481,25 +407,25 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </div>
           </div>
         </li>
-        <li class="test-item"  status="skip" test-id="8"
+        <li class="test-item"  status="pass" test-id="8"
           author=""
           tag="regression"
           device="">
           <div class="test-detail">
             <p class="name">TestCase.TC04_LoginPage</p>
             <p class="text-sm">
-              <span>9:23:00 AM</span> / <span>00:00:00:001</span>
-              <span class="badge skip-bg log float-right">Skip</span>
+              <span>12:53:26 PM</span> / <span>00:00:00:145</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-skip">TestCase.TC04_LoginPage</h5>
-<span class='badge badge-success'>02.12.2024 9:23:00 AM</span>
-<span class='badge badge-danger'>02.12.2024 9:23:00 AM</span>
-<span class='badge badge-default'>00:00:00:001</span>
+<h5 class="test-status text-pass">TestCase.TC04_LoginPage</h5>
+<span class='badge badge-success'>02.12.2024 12:53:26 PM</span>
+<span class='badge badge-danger'>02.12.2024 12:53:26 PM</span>
+<span class='badge badge-default'>00:00:00:145</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -507,23 +433,19 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </div>
 <div class="m-t-15"><span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\errorMessage_202402121226.png' src="C:\Users\2303521\Downloads\Identify_New_Bikes\Identify_New_Bikes\ExtentReportScreenshots\errorMessage_202402121226.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>9:23:00 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:53:26 PM</td>
         <td>
-          errorMessage got skipped
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:23:00 AM</td>
-        <td>
-          Method TestCase.TC04_LoginPage.errorMessage() on instance TestCase.TC04_LoginPage@6cf0e0ba depends on not successfully finished methods 
-[TestCase.TC04_LoginPage.LoginPageInHome() on instance TestCase.TC04_LoginPage@6cf0e0ba]
+          errorMessage got successfully executed
         </td>
       </tr>
   </tbody>
@@ -551,7 +473,7 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>2</span>
+<span class='badge log pass-bg'>2</span>
 </span>
 <p class="name">sanity</p>
 <p class="duration text-sm">2 tests</p>
@@ -559,7 +481,7 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 <div class="test-contents d-none">
 <div class="info">
 <h4>sanity</h4>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -570,16 +492,16 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>09:21:57 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:51:38 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'>TestCase.TC01_HomePage</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>09:23:00 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:53:23 PM</td>
 <td>
 <a href="#" class="linked" test-id='7' id='7'>TestCase.TC04_LoginPage</a>
 </td>
@@ -591,8 +513,7 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>2</span>
-<span class='badge log badge-skip'>4</span>
+<span class='badge log pass-bg'>6</span>
 </span>
 <p class="name">regression</p>
 <p class="duration text-sm">6 tests</p>
@@ -600,8 +521,7 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 <div class="test-contents d-none">
 <div class="info">
 <h4>regression</h4>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
-<span status="skip" class='badge log badge-skip'>4 skipped</span>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -612,44 +532,44 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>09:22:17 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:51:44 PM</td>
 <td>
 <a href="#" class="linked" test-id='2' id='2'>TestCase.TC02_UpcomingBikes</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="skip">
-<td><span class="badge log skip-bg">Skip</span></td>
-<td>09:22:18 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:52:21 PM</td>
 <td>
 <a href="#" class="linked" test-id='3' id='3'>TestCase.TC02_UpcomingBikes</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>09:22:40 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:52:24 PM</td>
 <td>
 <a href="#" class="linked" test-id='4' id='4'>TestCase.TC03_UsedCars</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="skip">
-<td><span class="badge log skip-bg">Skip</span></td>
-<td>09:22:40 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:53:06 PM</td>
 <td>
 <a href="#" class="linked" test-id='5' id='5'>TestCase.TC03_UsedCars</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="skip">
-<td><span class="badge log skip-bg">Skip</span></td>
-<td>09:22:40 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:53:14 PM</td>
 <td>
 <a href="#" class="linked" test-id='6' id='6'>TestCase.TC03_UsedCars</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="skip">
-<td><span class="badge log skip-bg">Skip</span></td>
-<td>09:23:00 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:53:26 PM</td>
 <td>
 <a href="#" class="linked" test-id='8' id='8'>TestCase.TC04_LoginPage</a>
 </td>
@@ -671,25 +591,25 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 12, 2024 09:21:20 AM</h3>
+<h3>Feb 12, 2024 12:50:06 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 12, 2024 09:23:01 AM</h3>
+<h3>Feb 12, 2024 12:53:30 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>0</h3>
+<h3>8</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>4</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -705,13 +625,13 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> tests passed
+<div><small data-tooltip='100%'>
+<b>8</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='50%'><b>4</b> tests failed,
-<b>4</b> skipped, <b data-tooltip='0%'>0</b> others
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
 </div>
@@ -728,10 +648,10 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div><small data-tooltip='100%'><b>8</b> events passed</small></div>
 <div>
-<small data-tooltip='25%'><b>4</b> events failed,
-<b data-tooltip='%'>12</b> others
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -747,7 +667,7 @@ Session ID: ec7ab0892393e95c8fa5659e31e74b97
 </div></div>
 <script>
 var timeline = {
-"TestCase.TC01_HomePage":0.284,"TestCase.TC02_UpcomingBikes":0.178,"TestCase.TC02_UpcomingBikes":0.001,"TestCase.TC03_UsedCars":0.18,"TestCase.TC03_UsedCars":0,"TestCase.TC03_UsedCars":0,"TestCase.TC04_LoginPage":0.173,"TestCase.TC04_LoginPage":0.001
+"TestCase.TC01_HomePage":0.376,"TestCase.TC02_UpcomingBikes":0.359,"TestCase.TC02_UpcomingBikes":0.41,"TestCase.TC03_UsedCars":0.366,"TestCase.TC03_UsedCars":0.342,"TestCase.TC03_UsedCars":1.65,"TestCase.TC04_LoginPage":0.242,"TestCase.TC04_LoginPage":0.145
 };
 </script>
 <div class="row">
@@ -758,19 +678,19 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>sanity</td>
-<td>0</td>
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0%</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 <tr>
 <td>regression</td>
+<td>6</td>
 <td>0</td>
-<td>2</td>
-<td>4</td>
 <td>0</td>
-<td>0%</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 </tbody>
 </table></div>
@@ -796,7 +716,7 @@ var timeline = {
 </tr>
 <tr>
 <td>User Name</td>
-<td>Subhash_B</td>
+<td>Rakshitha_L</td>
 </tr>
 <tr>
 <td>Environemnt</td>
@@ -819,10 +739,10 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 4,
+passParent: 8,
+failParent: 0,
 warningParent: 0,
-skipParent: 4,
+skipParent: 0,
 childCount: 5,
 passChild: 0,
 failChild: 0,
@@ -836,11 +756,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 0,
-failEvents: 4,
+passEvents: 8,
+failEvents: 0,
 warningEvents: 0,
-skipEvents: 4,
-infoEvents: 8
+skipEvents: 0,
+infoEvents: 0
 };
 </script>        </div>
       </div>

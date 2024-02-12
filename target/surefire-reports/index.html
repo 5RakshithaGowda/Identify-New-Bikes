@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestCase.TC04_LoginPage" class="method navigator-link" hash-for-method="errorMessage">errorMessage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -137,6 +123,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCase.TC04_LoginPage" class="method navigator-link" hash-for-method="errorMessage">errorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestCase.TC01_HomePage" class="method navigator-link" hash-for-method="homepage">homepage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -162,49 +153,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">TestCase.TC04_LoginPage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="errorMessage">
-                  </a> <!-- errorMessage -->
-                  <span class="method-name">errorMessage</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;identifierId&apos;]//ancestor::div[3]//following-sibling::div//span/parent::div&quot;}
-  (Session info: chrome=120.0.6099.130)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c99b7396a4351163b92578abc9ed76e0, findElement {using=xpath, value=//input[@id=&apos;identifierId&apos;]//ancestor::div[3]//following-sibling::div//span/parent::div}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61321}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61321/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c99b7396a4351163b92578abc9ed76e0
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy27.getText(Unknown Source)
-	at PageObject.LoginPage.emailVerification(LoginPage.java:59)
-	at TestCase.TC04_LoginPage.errorMessage(TC04_LoginPage.java:36)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -282,6 +230,13 @@ Session ID: c99b7396a4351163b92578abc9ed76e0
                   <a name="LoginPageInHome">
                   </a> <!-- LoginPageInHome -->
                   <span class="method-name">LoginPageInHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessage">
+                  </a> <!-- errorMessage -->
+                  <span class="method-name">errorMessage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -401,40 +356,40 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'bikeDetails')
 data.setCell(0, 2, 'TestCase.TC02_UpcomingBikes')
-data.setCell(0, 3, 39653);
+data.setCell(0, 3, 84545);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'errorMessage')
-data.setCell(1, 2, 'TestCase.TC04_LoginPage')
-data.setCell(1, 3, 20735);
+data.setCell(1, 1, 'homepage')
+data.setCell(1, 2, 'TestCase.TC01_HomePage')
+data.setCell(1, 3, 13838);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'homepage')
-data.setCell(2, 2, 'TestCase.TC01_HomePage')
-data.setCell(2, 3, 10101);
+data.setCell(2, 1, 'brandAvailable')
+data.setCell(2, 2, 'TestCase.TC03_UsedCars')
+data.setCell(2, 3, 10994);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'brandAvailable')
+data.setCell(3, 1, 'location')
 data.setCell(3, 2, 'TestCase.TC03_UsedCars')
-data.setCell(3, 3, 6567);
+data.setCell(3, 3, 10507);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'location')
-data.setCell(4, 2, 'TestCase.TC03_UsedCars')
-data.setCell(4, 3, 6308);
+data.setCell(4, 1, 'LoginPageInHome')
+data.setCell(4, 2, 'TestCase.TC04_LoginPage')
+data.setCell(4, 3, 6762);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'LoginPageInHome')
-data.setCell(5, 2, 'TestCase.TC04_LoginPage')
-data.setCell(5, 3, 4393);
+data.setCell(5, 1, 'ManufacturerDrpDown')
+data.setCell(5, 2, 'TestCase.TC02_UpcomingBikes')
+data.setCell(5, 3, 3288);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'hoverOnUsedCars')
 data.setCell(6, 2, 'TestCase.TC03_UsedCars')
-data.setCell(6, 3, 2830);
+data.setCell(6, 3, 3047);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'ManufacturerDrpDown')
-data.setCell(7, 2, 'TestCase.TC02_UpcomingBikes')
-data.setCell(7, 3, 2748);
+data.setCell(7, 1, 'errorMessage')
+data.setCell(7, 2, 'TestCase.TC04_LoginPage')
+data.setCell(7, 3, 2567);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -494,53 +449,51 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">homepage</span>
-                <span class="method-start">21099 ms</span>
+                <span class="method-start">29591 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCase.TC02_UpcomingBikes</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">ManufacturerDrpDown</span>
-                <span class="method-start">32409 ms</span>
+                <span class="method-start">44304 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">bikeDetails</span>
-                <span class="method-start">35892 ms</span>
+                <span class="method-start">48117 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCase.TC03_UsedCars</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">hoverOnUsedCars</span>
-                <span class="method-start">76107 ms</span>
+                <span class="method-start">133400 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">location</span>
-                <span class="method-start">79328 ms</span>
+                <span class="method-start">137157 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">brandAvailable</span>
-                <span class="method-start">86003 ms</span>
+                <span class="method-start">148110 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCase.TC04_LoginPage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">LoginPageInHome</span>
-                <span class="method-start">94780 ms</span>
+                <span class="method-start">159710 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">errorMessage</span>
-                <span class="method-start">99447 ms</span>
+                <span class="method-start">166803 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCase.TC01_HomePage</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">120412 ms</span>
+                <span class="method-start">169538 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
