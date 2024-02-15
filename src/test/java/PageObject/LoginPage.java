@@ -34,13 +34,13 @@ public class LoginPage extends BasePage{
 		loginbtn.click();
 	}
 	
-	public void clickOnGoogle() {
+	public void clickingOnGoogle() {
 		clickOnGoogle.click();
 	}
 	
 	private Set<String> windowHandles;
 	
-	public void navigationToLoginPage() {
+	public void LoginPageNavigation() {
 		windowHandles=driver.getWindowHandles();
 		
 		for(String window:windowHandles) {
@@ -52,7 +52,7 @@ public class LoginPage extends BasePage{
 		}
 	}
 	
-	public String emailVerification(String email){
+	public String VerificationOfEmail(String email){
 		
 		emailBox.sendKeys(email);
 		nextButton.click();

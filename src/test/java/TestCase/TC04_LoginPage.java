@@ -21,11 +21,11 @@ public class TC04_LoginPage extends BaseClass {
 		screenshot("LoginPage");
 		logger.info("Capture the screenshot of the login page");
 
-		lp.clickOnGoogle();
+		lp.clickingOnGoogle();
 		screenshot("ClickOnGoogle");
 		logger.info("Clicked on the Google to login");
 
-		lp.navigationToLoginPage();
+		lp.LoginPageNavigation();
 		logger.info("Switched to new child window to login");
 	}
 
@@ -33,7 +33,7 @@ public class TC04_LoginPage extends BaseClass {
 	public void errorMessage() throws IOException {
 		lp = new LoginPage(driver);
 		
-		String errorMsg = lp.emailVerification(rb.getString("email"));
+		String errorMsg = lp.VerificationOfEmail(rb.getString("email"));
 		System.out.println("Error Message: " + errorMsg);
 		logger.info("Provide the invalid email inorder to get Error message");
 		

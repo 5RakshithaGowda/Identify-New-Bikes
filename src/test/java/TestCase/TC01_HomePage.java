@@ -18,7 +18,7 @@ public class TC01_HomePage extends BaseClass {
 		
 		
 		sleep(2000);
-		boolean actual = hp.newBikesAssert();
+		boolean actual = hp.newBikesDisplay();
 		sa.assertEquals(actual, true, "New Bikes dropdown not displayed");
 		logger.info("Validating the new bikes dropdown is displayed or not");
 		
@@ -29,11 +29,11 @@ public class TC01_HomePage extends BaseClass {
 		logger.info("Capture the screenshot, when hovered on the NewBikes");
 		
 		sleep(2000);
-		boolean actual1=hp.upcomingBikesAssert();
+		boolean actual1=hp.upcomingBikesDisplay();
 		sa.assertEquals(actual1, true, "Upcoming bikes is not displayed");
 		logger.info("Validating the upcoming option is displayed or not");
 		
-		hp.clickOnUpcomingBike();
+		hp.UpcomingBikesClick();
 		logger.info("clicked on the upcoming bikes");
 
 		sa.assertAll();

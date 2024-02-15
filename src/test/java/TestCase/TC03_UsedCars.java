@@ -18,7 +18,7 @@ public class TC03_UsedCars extends BaseClass {
 		cars.scrollUp();
 		logger.info("Again scroll to top of the page");
 		
-		boolean actual=cars.usedCarsAssert();
+		boolean actual=cars.usedCarsValidation();
 		sa.assertEquals(actual, true, "used car dropdown is not displayed");
 		logger.info("Validating the used cars dropdown is displayed or not");
 		
@@ -35,7 +35,7 @@ public class TC03_UsedCars extends BaseClass {
 	public void location() throws IOException {
 		cars = new UsedCars(driver);
 		
-		cars.clickOnChennai();
+		cars.clickOnChennaiLocation();
 		logger.info("Clicked on the Chennai location");
 
 		screenshot("ChennaiLocation");

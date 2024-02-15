@@ -41,7 +41,7 @@ public class UsedCars extends BasePage {
 		act.moveToElement(usedCarDropDown).build().perform();
 	}
 
-	public void clickOnChennai() {
+	public void clickOnChennaiLocation() {
 		location.click();
 	}
 
@@ -69,7 +69,7 @@ public class UsedCars extends BasePage {
 	}
 
 	// Assert method
-	public boolean usedCarsAssert() {
+	public boolean usedCarsValidation() {
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {

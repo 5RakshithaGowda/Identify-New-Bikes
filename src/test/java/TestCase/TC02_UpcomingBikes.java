@@ -19,7 +19,7 @@ public class TC02_UpcomingBikes extends BaseClass {
 		screenshot("ManufacturerDropdown");
 		logger.info("capture the screenshot, when manufacturer selected as HONDA");
 		
-		boolean actual=bikes.manufacturerAssert();
+		boolean actual=bikes.manufacturerValidation();
 		sa.assertEquals(actual, true,"manufacturer is not displayed");
 		logger.info("Validating the manufacturer dropdown is displayed or not");
 		

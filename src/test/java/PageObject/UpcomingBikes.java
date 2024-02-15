@@ -51,7 +51,7 @@ public class UpcomingBikes extends BasePage {
 	}
 	
 	//Assert Method
-		public boolean manufacturerAssert() {
+		public boolean manufacturerValidation() {
 			return manufacturers.isDisplayed();
 		}
 	

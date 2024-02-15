@@ -27,16 +27,16 @@ public class HomePage extends BasePage {
 		act.moveToElement(newBikeDropDown).build().perform();
 	}
 	
-	public void clickOnUpcomingBike() {
+	public void UpcomingBikesClick() {
 		upComingBikeOption.click();
 	}
 	
 	//Assert Methods
-	public boolean newBikesAssert() {
+	public boolean newBikesDisplay() {
 		return newBikeDropDown.isDisplayed();
 	}
 	
-	public boolean upcomingBikesAssert() {
+	public boolean upcomingBikesDisplay() {
 		return upComingBikeOption.isDisplayed();
 	}
 	
